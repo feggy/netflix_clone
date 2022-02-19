@@ -360,9 +360,9 @@ class HomePage extends StatelessWidget {
             ),
             LinearProgressIndicator(
               minHeight: 5,
-              color: Color(0xffD42F26),
+              color: redColor,
               value: progress,
-              backgroundColor: Color(0xff262626),
+              backgroundColor: blackColor2,
             ),
             Container(
               margin: const EdgeInsets.symmetric(horizontal: 6),

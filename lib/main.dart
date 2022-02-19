@@ -3,9 +3,11 @@ import 'package:flutter/services.dart';
 import 'package:netflix_clone/routes/pages.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(SystemUiOverlayStyle(
-    statusBarBrightness: Brightness.dark,
-  ));
+  SystemChrome.setSystemUIOverlayStyle(
+    const SystemUiOverlayStyle(
+      statusBarBrightness: Brightness.dark,
+    ),
+  );
 
   runApp(const MyApp());
 }
